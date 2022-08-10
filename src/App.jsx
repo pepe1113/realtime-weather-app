@@ -36,7 +36,7 @@ const theme = {
 const AUTHORIZATION_KEY = 'CWB-56E7E9C5-9C76-4A1D-AB95-C30327F5F21E';
 
 const App = () => {
-  const storageCity = localStorage.getItem('cityName') || ' 臺北市';
+  const storageCity = localStorage.getItem('cityName') || '臺北市';
   const [currentTheme, setCurrentTheme] = useState('light');
   const [currentPage, setCurrentPage] = useState('WeatherCard');
   const [currentCity, setCurrentCity] = useState(storageCity);

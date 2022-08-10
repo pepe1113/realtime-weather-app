@@ -105,6 +105,7 @@ const WeatherSetting = ({ handleCurrentPageChange, handleCurrentCityChange, city
     console.log('locationName', locationName);
     handleCurrentCityChange(locationName);
     handleCurrentPageChange('WeatherCard');
+
     localStorage.setItem('cityName', locationName);
   };
 
