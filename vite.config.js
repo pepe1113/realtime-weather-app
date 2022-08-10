@@ -4,9 +4,9 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/realtime-weather-app/',
   plugins: [react(), svgr()],
   build: {
     chunkSizeWarningLimit: 1600,
   },
-  base: '/realtime-weather-app/',
 });
